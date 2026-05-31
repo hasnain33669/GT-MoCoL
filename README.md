@@ -16,7 +16,7 @@ Molecular property prediction framework using Graph Transformer with motif-aware
 pip install -r requirements.txt
 Dataset
 The data underlying the results presented in this study are:
-Dataset, downloaded from https://moleculenet.org/datasets-1.
+Dataset, downloaded from https://moleculenet.org/datasets-1
 
 Usage
 Step 1: Pre-training
