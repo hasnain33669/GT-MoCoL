@@ -1,22 +1,24 @@
+ **GT-MoCoL: Graph Transformer with Motif-level Contrastive Learning**
 
-# GT-MoCoL: Graph Transformer with Motif-level Contrastive Learning
+**Molecular property prediction framework** using Graph Transformer with motif-aware attention and multi-level contrastive learning.
 
-Molecular property prediction framework using Graph Transformer with motif-aware attention and multi-level contrastive learning.
+---
 
-## Architecture
+## **Architecture**
 
 - **Motif Extraction**: Rings and functional groups (SMARTS-based)
 - **Motif-Aware Augmentation**: Two complementary views (motif-preserving / motif-corrupting)
 - **Graph Transformer**: Multi-head self-attention with motif bias
 - **Multi-Level Contrastive Loss**: Graph-level + Motif-level + Alignment losses
 
-## Installation
+---
+
+## **Installation**
 
 ```bash
 pip install -r requirements.txt
 Dataset
-The data underlying the results presented in this study are:
-Dataset, downloaded from https://moleculenet.org/datasets-1
+The data underlying the results presented in this study are from MoleculeNet, downloaded from https://moleculenet.org/datasets-1
 
 Usage
 Step 1: Pre-training
